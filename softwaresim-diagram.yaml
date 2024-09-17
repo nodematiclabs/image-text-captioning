@@ -1,0 +1,840 @@
+mouseWheel:
+  _isScalar: false
+  closed: false
+  isStopped: false
+  hasError: false
+  thrownError: null
+  __isAsync: false
+elementDraw:
+  _isScalar: false
+  closed: false
+  isStopped: false
+  hasError: false
+  thrownError: null
+  __isAsync: false
+snapSettings:
+  constraints: 16
+serializationSettings:
+  preventDefaults: true
+contextMenuSettings:
+  show: true
+  items:
+    - text: Edit
+      id: edit
+      target: .e-elementcontent
+      iconCss: fa fa-cogs
+    - text: Callout To
+      id: callout
+      target: .e-elementcontent
+      iconCss: fa fa-crosshairs
+    - text: Increase font size ↑
+      id: increaseFontSize
+      target: .e-elementcontent
+      iconCss: fa fa-font
+    - text: Decrease font size ↓
+      id: decreaseFontSize
+      target: .e-elementcontent
+      iconCss: fa fa-font
+    - text: Fill
+      id: fill
+      target: .e-elementcontent
+      iconCss: fa fa-tint
+    - text: Highlight
+      id: highlight
+      target: .e-elementcontent
+      iconCss: fa fa-lightbulb-o
+    - text: Collapse to square
+      id: collapseToSquare
+      target: .e-elementcontent
+      iconCss: fa fa-compress
+    - text: Collapse to named square
+      id: collapseToNamedSquare
+      target: .e-elementcontent
+      iconCss: fa fa-compress
+    - text: Collapse to circle
+      id: collapseToCircle
+      target: .e-elementcontent
+      iconCss: fa fa-compress
+    - text: Expand
+      id: expand
+      target: .e-elementcontent
+      iconCss: fa fa-expand
+    - text: Bring to front
+      id: front
+      target: .e-elementcontent
+      iconCss: fa fa-angle-double-up
+    - text: Bring forward
+      id: forward
+      target: .e-elementcontent
+      iconCss: fa fa-angle-up
+    - text: Send backward
+      id: backward
+      target: .e-elementcontent
+      iconCss: fa fa-angle-down
+    - text: Send to back
+      id: back
+      target: .e-elementcontent
+      iconCss: fa fa-angle-double-down
+    - text: Remove
+      id: remove
+      target: .e-elementcontent
+      iconCss: fa fa-times
+  showCustomMenuOnly: true
+tool: 5
+scrollSettings:
+  scrollLimit: Infinity
+  viewPortWidth: 1120
+  viewPortHeight: 738
+  horizontalOffset: 27
+  verticalOffset: 163
+addInfo:
+  currencyText: USD ($)
+  currencySymbol: $
+  selectedViewType: 0
+height: 738
+nodes:
+  - shape:
+      type: HTML
+      content: '<div class="c-html" style="background-color: #4e3391;"><div
+        class="c-container"><div class="c-image-primary"
+        style="background-image:
+        url(https://res.cloudinary.com/dwohyn92h/image/upload/v1681199389/sds_logos/Document_picture_Black_87_v2_thzcag.png);"></div><div
+        class="c-image-original" style="background-image:
+        url(https://res.cloudinary.com/dwohyn92h/image/upload/v1681199389/sds_logos/Document_picture_v2_ion3eg.png);"></div><div
+        class="c-text"><div class="c-title">Original Image</div><div
+        class="c-short-description">Image with text in it</div><div
+        class="c-bottom"><div class="c-hr p-mb-1"></div><div
+        class="c-title-bottom">Image Data</div></div></div></div></div>'
+    id: Image DataSfV2M
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+        name: Image Data
+        shortDescription: Image with text in it
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        viewType: total
+        name: Image Data
+      status: N/A
+      size: sm
+      nodeType: html
+      title: Image Data
+      editableName: Original Image
+      type: component
+      id: ""
+      dynamicsViewSettings:
+        - name: Data Generator
+          type: Generator
+          portsIn: {}
+          portsOut:
+            job: data
+          messageInterdepartureTime:
+            exp:
+              lambda: AverageTimeBetweenData
+      dynamicsViews:
+        - type: Generator
+          status: Idle
+          name: Data Generator
+          AverageTimeBetweenData: 1
+      name: Image Data
+      category: 4
+      imgUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1681199389/sds_logos/Document_picture_v2_ion3eg.png
+      imgPrimaryUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1681199389/sds_logos/Document_picture__044448_v2_a02jwa.png
+      imgBlackUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1681199389/sds_logos/Document_picture_Black_87_v2_thzcag.png
+      color: "#4e3391"
+      controlText: Image Data
+      selectedDynamicsView: 0
+      latitude: null
+      longitude: null
+    width: 300
+    height: 100
+    offsetX: 303
+    offsetY: 344
+    zIndex: 0
+    outEdges:
+      - Straight ConnectorFseB5
+  - shape:
+      type: HTML
+      content: '<div class="c-html" style="background-color: #4e3391;"><div
+        class="c-container"><div class="c-image-primary"
+        style="background-image:
+        url(https://res.cloudinary.com/dwohyn92h/image/upload/v1681199389/sds_logos/Document_picture_Black_87_v2_thzcag.png);"></div><div
+        class="c-image-original" style="background-image:
+        url(https://res.cloudinary.com/dwohyn92h/image/upload/v1681199389/sds_logos/Document_picture_v2_ion3eg.png);"></div><div
+        class="c-text"><div class="c-title">Captioned Image</div><div
+        class="c-short-description">Image with translated text added as a
+        caption</div><div class="c-bottom"><div class="c-hr p-mb-1"></div><div
+        class="c-title-bottom">Image Data</div></div></div></div></div>'
+    id: Image DataSfV2MuEeVI
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+        name: Image Data
+        shortDescription: Image with translated text added as a caption
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        viewType: total
+        name: Image Data
+      status: N/A
+      size: sm
+      nodeType: html
+      title: Image Data
+      editableName: Captioned Image
+      type: component
+      id: ""
+      dynamicsViewSettings:
+        - name: Data Generator
+          type: Generator
+          portsIn: {}
+          portsOut:
+            job: data
+          messageInterdepartureTime:
+            exp:
+              lambda: AverageTimeBetweenData
+      dynamicsViews:
+        - type: Generator
+          status: Idle
+          name: Data Generator
+          AverageTimeBetweenData: 1
+      name: Image Data
+      category: 4
+      imgUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1681199389/sds_logos/Document_picture_v2_ion3eg.png
+      imgPrimaryUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1681199389/sds_logos/Document_picture__044448_v2_a02jwa.png
+      imgBlackUrl: https://res.cloudinary.com/dwohyn92h/image/upload/v1681199389/sds_logos/Document_picture_Black_87_v2_thzcag.png
+      color: "#4e3391"
+      controlText: Image Data
+      selectedDynamicsView: 0
+      latitude: null
+      longitude: null
+    width: 300
+    height: 100
+    offsetX: 684
+    offsetY: 344
+    zIndex: 1
+    inEdges:
+      - Straight ConnectornRGvp
+  - shape:
+      type: HTML
+      content: '<div class="c-html" style="background-color: #3871e0;"><div
+        class="c-container"><div class="c-image-primary"
+        style="background-image:
+        url(https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/cloud_storage_Black_87_qiifqy.png);"></div><div
+        class="c-image-original" style="background-image:
+        url(https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/cloud_storage_donk5b.png);"></div><div
+        class="c-text"><div class="c-title">Cloud Storage</div><div
+        class="c-short-description">Storing and retrieving data globally in a
+        scalable and secure manner</div><div class="c-bottom"><div class="c-hr
+        p-mb-1"></div><div class="c-title-bottom">Google Cloud
+        Platform</div></div></div></div></div>'
+    id: Google Cloud Storaget7ZWL
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+        name: Google Cloud Storage
+        shortDescription: Storing and retrieving data globally in a scalable and secure manner
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        viewType: total
+        name: Google Cloud Storage
+      status: N/A
+      size: sm
+      nodeType: html
+      title: Google Cloud Storage
+      editableName: Cloud Storage
+      type: component
+      id: ""
+      dynamicsViewSettings:
+        - name: Object Storage
+          type: Storage
+          portsIn:
+            put: write
+            get: read
+          portsOut:
+            stored: data
+      dynamicsViews:
+        - type: Storage
+          status: Idle
+          name: Object Storage
+      name: Google Cloud Storage
+      category: 5
+      imgUrl: https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/cloud_storage_donk5b.png
+      imgPrimaryUrl: https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/cloud_storage__044448_vsadzn.png
+      imgBlackUrl: https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/cloud_storage_Black_87_qiifqy.png
+      color: "#3871e0"
+      controlText: Cloud Storage
+      selectedDynamicsView: 0
+      latitude: null
+      longitude: null
+    width: 300
+    height: 100
+    offsetX: 518
+    offsetY: 472
+    zIndex: 2
+    inEdges:
+      - Straight ConnectorFseB5
+      - Orthogonal ConnectorT2xbv
+    outEdges:
+      - Straight ConnectornRGvp
+      - Orthogonal ConnectorZFAw7
+  - shape:
+      type: HTML
+      content: '<div class="c-html" style="background-color: #3871e0; border-radius:
+        10px"><div class="c-container"><div class="c-image-primary"
+        style="background-image:
+        url(https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/pubsub_Black_87_re2ikj.png);"></div><div
+        class="c-image-original" style="background-image:
+        url(https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/pubsub_c8kslh.png);
+        border-radius: 10px"></div></div><div
+        class="c-undername"><div>PubSub</div></div><hr class="c-underrule"
+        style="background-color: #3871e0"></div>'
+    id: Google PubSubJcO54
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+        name: Google PubSub
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        viewType: total
+        name: Google PubSub
+      status: N/A
+      size: sm
+      nodeType: html
+      title: Google PubSub
+      editableName: PubSub
+      type: component
+      id: ""
+      dynamicsViewSettings:
+        - name: Processing Tool
+          type: Processor
+          portsIn:
+            job: input
+          portsOut:
+            job: output
+          serviceTime:
+            exp:
+              lambda: AverageProcessingTime
+      dynamicsViews:
+        - type: Processor
+          status: Idle
+          name: Processing Tool
+          AverageProcessingTime: 1
+      name: Google PubSub
+      category: 5
+      imgUrl: https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/pubsub_c8kslh.png
+      imgPrimaryUrl: https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/pubsub__044448_yvz8nv.png
+      imgBlackUrl: https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/pubsub_Black_87_re2ikj.png
+      color: "#3871e0"
+      controlText: PubSub
+      selectedDynamicsView: 0
+      collapsedToSquare: false
+      collapsedToNamedSquare: true
+      collapsedToCircle: false
+    width: 100
+    height: 124
+    offsetX: 445
+    offsetY: 776
+    zIndex: 5
+    inEdges:
+      - Orthogonal ConnectorTtIkL
+    outEdges:
+      - Orthogonal ConnectorZf1TB
+  - shape:
+      type: HTML
+      content: '<div class="c-html" style="background-color: #3871e0; border-radius:
+        10px"><div class="c-container"><div class="c-image-primary"
+        style="background-image:
+        url(https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/cloud_functions_Black_87_i6veto.png);"></div><div
+        class="c-image-original" style="background-image:
+        url(https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/cloud_functions_rwqvz4.png);
+        border-radius: 10px"></div></div><div class="c-undername"><div>Cloud
+        Functions</div></div><hr class="c-underrule" style="background-color:
+        #3871e0"></div>'
+    id: Google Cloud FunctionscIMFy
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+        name: Google Cloud Functions
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        viewType: total
+        name: Google Cloud Functions
+      status: N/A
+      size: sm
+      nodeType: html
+      title: Google Cloud Functions
+      editableName: Cloud Functions
+      type: component
+      id: ""
+      dynamicsViewSettings:
+        - name: Processing Tool
+          type: Processor
+          portsIn:
+            job: input
+          portsOut:
+            job: output
+          serviceTime:
+            exp:
+              lambda: AverageProcessingTime
+      dynamicsViews:
+        - type: Processor
+          status: Idle
+          name: Processing Tool
+          AverageProcessingTime: 1
+      name: Google Cloud Functions
+      category: 5
+      imgUrl: https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/cloud_functions_rwqvz4.png
+      imgPrimaryUrl: https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/cloud_functions__044448_u2hmi4.png
+      imgBlackUrl: https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/cloud_functions_Black_87_i6veto.png
+      color: "#3871e0"
+      controlText: Cloud Functions
+      selectedDynamicsView: 0
+      collapsedToSquare: false
+      collapsedToNamedSquare: true
+      collapsedToCircle: false
+    width: 138.00000000000003
+    height: 124
+    offsetX: 360
+    offsetY: 623
+    zIndex: 6
+    inEdges:
+      - Orthogonal ConnectorZFAw7
+    outEdges:
+      - Orthogonal ConnectorTtIkL
+  - shape:
+      type: HTML
+      content: '<div class="c-html" style="background-color: #3871e0; border-radius:
+        10px"><div class="c-container"><div class="c-image-primary"
+        style="background-image:
+        url(https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/cloud_functions_Black_87_i6veto.png);"></div><div
+        class="c-image-original" style="background-image:
+        url(https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/cloud_functions_rwqvz4.png);
+        border-radius: 10px"></div></div><div class="c-undername"><div>Cloud
+        Functions</div></div><hr class="c-underrule" style="background-color:
+        #3871e0"></div>'
+    id: Google Cloud FunctionscIMFyA40I2
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+        name: Google Cloud Functions
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        viewType: total
+        name: Google Cloud Functions
+      status: N/A
+      size: sm
+      nodeType: html
+      title: Google Cloud Functions
+      editableName: Cloud Functions
+      type: component
+      id: ""
+      dynamicsViewSettings:
+        - name: Processing Tool
+          type: Processor
+          portsIn:
+            job: input
+          portsOut:
+            job: output
+          serviceTime:
+            exp:
+              lambda: AverageProcessingTime
+      dynamicsViews:
+        - type: Processor
+          status: Idle
+          name: Processing Tool
+          AverageProcessingTime: 1
+      name: Google Cloud Functions
+      category: 5
+      imgUrl: https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/cloud_functions_rwqvz4.png
+      imgPrimaryUrl: https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/cloud_functions__044448_u2hmi4.png
+      imgBlackUrl: https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/cloud_functions_Black_87_i6veto.png
+      color: "#3871e0"
+      controlText: Cloud Functions
+      selectedDynamicsView: 0
+      collapsedToSquare: false
+      collapsedToNamedSquare: true
+      collapsedToCircle: false
+    width: 138
+    height: 124
+    offsetX: 537
+    offsetY: 623
+    zIndex: 7
+    inEdges:
+      - Orthogonal ConnectorZf1TB
+    outEdges:
+      - Orthogonal ConnectorTdFDC
+  - shape:
+      type: HTML
+      content: '<div class="c-html" style="background-color: #3871e0; border-radius:
+        10px"><div class="c-container"><div class="c-image-primary"
+        style="background-image:
+        url(https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/cloud_functions_Black_87_i6veto.png);"></div><div
+        class="c-image-original" style="background-image:
+        url(https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/cloud_functions_rwqvz4.png);
+        border-radius: 10px"></div></div><div class="c-undername"><div>Cloud
+        Functions</div></div><hr class="c-underrule" style="background-color:
+        #3871e0"></div>'
+    id: Google Cloud FunctionscIMFyA40I2NRlQW
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+        name: Google Cloud Functions
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        viewType: total
+        name: Google Cloud Functions
+      status: N/A
+      size: sm
+      nodeType: html
+      title: Google Cloud Functions
+      editableName: Cloud Functions
+      type: component
+      id: ""
+      dynamicsViewSettings:
+        - name: Processing Tool
+          type: Processor
+          portsIn:
+            job: input
+          portsOut:
+            job: output
+          serviceTime:
+            exp:
+              lambda: AverageProcessingTime
+      dynamicsViews:
+        - type: Processor
+          status: Idle
+          name: Processing Tool
+          AverageProcessingTime: 1
+      name: Google Cloud Functions
+      category: 5
+      imgUrl: https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/cloud_functions_rwqvz4.png
+      imgPrimaryUrl: https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/cloud_functions__044448_u2hmi4.png
+      imgBlackUrl: https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/cloud_functions_Black_87_i6veto.png
+      color: "#3871e0"
+      controlText: Cloud Functions
+      selectedDynamicsView: 0
+      collapsedToSquare: false
+      collapsedToNamedSquare: true
+      collapsedToCircle: false
+    width: 138.00000000000003
+    height: 124
+    offsetX: 714
+    offsetY: 623
+    zIndex: 8
+    inEdges:
+      - Orthogonal ConnectorodXCZ
+    outEdges:
+      - Orthogonal ConnectorT2xbv
+  - shape:
+      type: HTML
+      content: '<div class="c-html" style="background-color: #3871e0; border-radius:
+        10px"><div class="c-container"><div class="c-image-primary"
+        style="background-image:
+        url(https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/pubsub_Black_87_re2ikj.png);"></div><div
+        class="c-image-original" style="background-image:
+        url(https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/pubsub_c8kslh.png);
+        border-radius: 10px"></div></div><div
+        class="c-undername"><div>PubSub</div></div><hr class="c-underrule"
+        style="background-color: #3871e0"></div>'
+    id: Google PubSubJcO54JOG8B
+    addInfo:
+      functionView:
+        leadTime: 0
+        leadTimeSeconds: 0
+        processTime: 0
+        processTimeSeconds: 0
+        completeAndAccuratePerc: 0
+        activityRatio: 0
+        viewType: metrics
+        name: Google PubSub
+      economicView:
+        cpus: 0
+        memory: 0
+        storage: 0
+        networking: 0
+        accelerators: 0
+        other: 0
+        unknown: false
+        viewType: total
+        name: Google PubSub
+      status: N/A
+      size: sm
+      nodeType: html
+      title: Google PubSub
+      editableName: PubSub
+      type: component
+      id: ""
+      dynamicsViewSettings:
+        - name: Processing Tool
+          type: Processor
+          portsIn:
+            job: input
+          portsOut:
+            job: output
+          serviceTime:
+            exp:
+              lambda: AverageProcessingTime
+      dynamicsViews:
+        - type: Processor
+          status: Idle
+          name: Processing Tool
+          AverageProcessingTime: 1
+      name: Google PubSub
+      category: 5
+      imgUrl: https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/pubsub_c8kslh.png
+      imgPrimaryUrl: https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/pubsub__044448_yvz8nv.png
+      imgBlackUrl: https://storage.googleapis.com/nodematic/sds_logos/GoogleCloud/pubsub_Black_87_re2ikj.png
+      color: "#3871e0"
+      controlText: PubSub
+      selectedDynamicsView: 0
+      collapsedToSquare: false
+      collapsedToNamedSquare: true
+      collapsedToCircle: false
+    width: 100
+    height: 124
+    offsetX: 618
+    offsetY: 776
+    zIndex: 9
+    inEdges:
+      - Orthogonal ConnectorTdFDC
+    outEdges:
+      - Orthogonal ConnectorodXCZ
+connectors:
+  - id: Straight ConnectorFseB5
+    targetDecorator:
+      shape: OpenArrow
+    style:
+      strokeWidth: 2
+    sourcePoint:
+      x: 386.98
+      y: 394
+    targetPoint:
+      x: 434.02
+      y: 422
+    sourceID: Image DataSfV2M
+    targetID: Google Cloud Storaget7ZWL
+    addInfo:
+      viewConnector: 0
+    zIndex: 3
+  - id: Straight ConnectornRGvp
+    targetDecorator:
+      shape: OpenArrow
+    style:
+      strokeWidth: 2
+    sourcePoint:
+      x: 582.84
+      y: 422
+    targetPoint:
+      x: 619.16
+      y: 394
+    sourceID: Google Cloud Storaget7ZWL
+    targetID: Image DataSfV2MuEeVI
+    addInfo:
+      viewConnector: 0
+    zIndex: 4
+  - id: Orthogonal ConnectorZFAw7
+    type: Orthogonal
+    targetDecorator:
+      shape: OpenArrow
+    style:
+      strokeWidth: 2
+    constraints: 470654
+    sourcePoint:
+      x: 518
+      y: 522
+    targetPoint:
+      x: 360
+      y: 561
+    sourceID: Google Cloud Storaget7ZWL
+    targetID: Google Cloud FunctionscIMFy
+    segments:
+      - type: Orthogonal
+    addInfo:
+      viewConnector: 0
+    zIndex: 10
+  - id: Orthogonal ConnectorTtIkL
+    type: Orthogonal
+    targetDecorator:
+      shape: OpenArrow
+    style:
+      strokeWidth: 2
+    constraints: 470654
+    sourcePoint:
+      x: 360
+      y: 685
+    targetPoint:
+      x: 445
+      y: 714
+    sourceID: Google Cloud FunctionscIMFy
+    targetID: Google PubSubJcO54
+    segments:
+      - type: Orthogonal
+    addInfo:
+      viewConnector: 0
+    zIndex: 11
+  - id: Orthogonal ConnectorZf1TB
+    type: Orthogonal
+    targetDecorator:
+      shape: OpenArrow
+    style:
+      strokeWidth: 2
+    constraints: 470654
+    sourcePoint:
+      x: 445
+      y: 714
+    targetPoint:
+      x: 537
+      y: 685
+    sourceID: Google PubSubJcO54
+    targetID: Google Cloud FunctionscIMFyA40I2
+    segments:
+      - type: Orthogonal
+    addInfo:
+      viewConnector: 0
+    zIndex: 12
+  - id: Orthogonal ConnectorTdFDC
+    type: Orthogonal
+    targetDecorator:
+      shape: OpenArrow
+    style:
+      strokeWidth: 2
+    constraints: 470654
+    sourcePoint:
+      x: 537
+      y: 685
+    targetPoint:
+      x: 618
+      y: 714
+    sourceID: Google Cloud FunctionscIMFyA40I2
+    targetID: Google PubSubJcO54JOG8B
+    segments:
+      - type: Orthogonal
+    addInfo:
+      viewConnector: 0
+    zIndex: 13
+  - id: Orthogonal ConnectorodXCZ
+    type: Orthogonal
+    targetDecorator:
+      shape: OpenArrow
+    style:
+      strokeWidth: 2
+    constraints: 470654
+    sourcePoint:
+      x: 618
+      y: 714
+    targetPoint:
+      x: 714
+      y: 685
+    sourceID: Google PubSubJcO54JOG8B
+    targetID: Google Cloud FunctionscIMFyA40I2NRlQW
+    segments:
+      - type: Orthogonal
+    addInfo:
+      viewConnector: 0
+    zIndex: 14
+  - id: Orthogonal ConnectorT2xbv
+    type: Orthogonal
+    targetDecorator:
+      shape: OpenArrow
+    style:
+      strokeWidth: 2
+    constraints: 470654
+    sourcePoint:
+      x: 714
+      y: 561
+    targetPoint:
+      x: 518
+      y: 522
+    sourceID: Google Cloud FunctionscIMFyA40I2NRlQW
+    targetID: Google Cloud Storaget7ZWL
+    segments:
+      - type: Orthogonal
+    addInfo:
+      viewConnector: 0
+    zIndex: 15
+selectedItems:
+  width: 0
+  height: 0
